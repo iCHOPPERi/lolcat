@@ -14,7 +14,6 @@
  */
 
 #define _XOPEN_SOURCE
-#define M_PI 3.14159265358979323846
 
 #include <ctype.h>
 #include <err.h>
@@ -28,6 +27,7 @@
 #include <unistd.h>
 #include <wchar.h>
 #include <time.h>
+#include "math.h"
 
 
 static char helpstr[] = "\n"
