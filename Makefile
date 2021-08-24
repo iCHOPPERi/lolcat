@@ -14,9 +14,6 @@ debug: all
 lolcat: $(LOLCAT_SRC)
 	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
 
-censor: $(CENSOR_SRC)
-	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
-
 clean:
 	rm -f lolcat
 	rm -f lolcat.o
