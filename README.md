@@ -7,7 +7,7 @@ This
 ### Build
 
 ```bash
-$ $ make && ~~sudo~~ cp lolcat /usr/sbin/lolcat && ~~sudo~~ chmod 0755 /usr/sbin/lolcat
+$ $ make && cp lolcat /usr/sbin/lolcat && chmod 0755 /usr/sbin/lolcat
 
 ```
 
